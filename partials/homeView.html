@@ -1,0 +1,44 @@
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item center three-quarters">
+        <img src="res/img/logo-transparent.png" height="42" width="42"> <h1 class="topcoat-navigation-bar__title">GB Ops</h1>
+    </div>
+    <div class="topcoat-navigation-bar__item right quarter">
+        <a class="topcoat-icon-button--quiet" ng-click="changeSettings()">
+            <span class="topcoat-icon settings-icon"></span>
+        </a>
+    </div>
+</div>
+<div class="topcoat-list__container list">
+    <h3 class="topcoat-list__header">Topics</h3>
+    <ul class="topcoat-list">
+        <li class="topcoat-list__item--first" ng-click="slidePage('/view1')">
+            Presentations
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view2')">
+            Procedures
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view3')">
+            Routine Management
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view4')">
+            Postpartum Care
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view5')">
+            Emergencies
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view6')">
+            Neonate Care
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view7')">
+            Calculations
+        </li>
+    </ul>
+    <h3 class="topcoat-list__header">Reference</h3>
+    <ul class="topcoat-list">
+
+        <li class="topcoat-list__item" ng-click="slidePage('/view8')">
+            Calculators
+        </li>
+    </ul>
+</div>
+<ng-include src="'partials/settingsOverlay.html'"></ng-include>

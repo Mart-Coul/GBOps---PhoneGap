@@ -1,0 +1,11 @@
+.topcoat-navigation-bar__item img {
+  	width: 80px;
+  	height: 80px;
+
+  	border: none;
+  	padding: 0;
+  	margin: -10px 0 0 0;
+  	box-shadow: none;
+
+  	float: left;
+}
